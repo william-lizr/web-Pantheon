@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css?family=Varela|Varela+Round&display=swap');
+
+body, html{
+width: 100%;
+height: 190vh;
+font-family: Varela Round, sans-serif;
+font-weight: 400;
+font-size: 0.5vw;
+
+margin: 0;
+padding: 0;
+}
+
+.wrapper {
+width: 100%;
+height: auto;
+
+padding: 0;
+margin: 0;
+}
+
+#pantheon{
+width: 70%;
+height: 70vh;
+background-image: url(resources/pantheon.PNG);
+background-position: center;
+background-size: contain;
+background-repeat: no-repeat;
+
+margin: 0 15% 0;
+padding: 0;
+}
+
+.spacer{
+width: 100%;
+height: 35vh;
+display: inline-block;
+/* background: url(hero.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+*/
+margin: 0;
+padding: 0;
+}
+
+.offsetbox{
+height: auto;
+width: 100%;
+position: absolute;
+top: 60vh;
+
+margin: 0;
+padding: 0;
+}
+
+#greeting{
+position: absolute;
+top: 0;
+width: 100%;
+text-align: center;
+
+font-weight: 600;
+font-family: Varela, sans-serif;
+font-size: 10rem;
+color: Black;
+letter-spacing: 0.2rem;
+}
+
+#quote{
+position: absolute;
+top: 11.5rem;
+width: 100%;
+text-align: center;
+
+font-weight: 400;
+font-family: Varela, sans-serif;
+font-size: 4rem;
+letter-spacing: 2rem;
+color: #141414;
+}
+
+.reactive-textbox{
+width: 100%;
+height: 7vh;
+position: absolute;
+top: 95rem;
+text-align: center;
+font-family: Varela, sans-serif;
+font-weight: 200;
+
+margin: 0;
+padding: 0;
+}
+
+#subject{
+letter-spacing: 2rem;
+font-weight: 100;
+font-size: 2rem;
+
+width: 100%;
+height: 7vh;
+position: absolute;
+top: 95vh;
+text-align: center;
+font-family: Varela, sans-serif;
+font-weight: 200;
+
+margin: 0;
+padding: 0;
+}
+
+.god-span{
+width: 90%;
+height: auto;
+
+margin: 0;
+padding: 0 5% 0 5%;
+}
+
+.table-god{
+width: 33%;
+min-height: 30vw;
+height: auto;
+display: inline-block;
+text-align: center;
+font-weight: 400;
+
+
+padding: 0 0 3vh;
+margin: 0;
+}
+
+.img{
+width: 100%;
+height: 35vw;
+
+padding: 0;
+margin: 0;
+}
+
+.table-god #persephone{
+background: url(resources/persephone.PNG);
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+}
+.table-god #hephaestus{
+background: url(resources/hephaestus.PNG);
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+}
+.table-god #apollo{
+background: url(resources/apollo.PNG);
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+}
+
+h1{
+margin: 0;
+padding: 0;
+}
+
+h2{
+font-family: Varela, sans-serif;
+font-size: 4rem;
+font-weight: 300;
+margin: 2rem 0;
+}
+
+h2.title{
+font-size: 6rem;
+font-weight: 500;
+margin: 0;
+}
+
+h2.authentic{
+margin: 0;
+}
+
+h3{
+font-family: Varela, sans-serif;
+font-size: 3rem;
+font-weight: 200;
+letter-spacing: 1rem;
+margin: 2rem 0;
+}
+
+.text-span{
+width: 90%;
+height: auto;
+font-family: Varela Round, sans-serif;
+font-weight: 50;
+font-size: 3rem;
+line-height: 7rem;
+letter-spacing: 2rem;
+text-align: center;
+
+padding: 5vh 5% 12vh;
+margin: 0;
+}
+
+p{
+margin: 0;
+padding: 0;
+}
+
+.top-bar{
+width: 100%;
+height: auto;
+max-height: 100vh;
+
+position: absolute;
+margin: 1vh 0;
+padding: 0;
+}
+
+p.top-title{
+text-align: center;
+
+padding: 0;
+margin: 0;
+}
+
+ul{
+list-style-type: decimal;
+}
+
+.questions-list{
+width: 50%;
+height: auto;
+
+margin: 0 30% 0 20%;
+}
